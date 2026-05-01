@@ -1,7 +1,7 @@
-dueamount=float(input("Enter the total bill."))
-bill=float(input("Enter how much you pay the shopkeeper."))
-answer=bill-dueamount
-if dueamount>0:
-    print("You did not enter enough money to pay the due amount.")
-if dueamount<=0:
-    print("The shopkeeper will pay you", answer)
+answer=float(input("Enter the bill you are paying."))
+dueamount=int(input("Enter the dueamount."))
+if dueamount > answer:
+    difference = dueamount - answer
+    print(f"You did not enter enough money to pay the due amount. You are short by:{difference}")
+else:
+    print("Payment accepted.")
