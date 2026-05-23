@@ -15,7 +15,22 @@ elif age>20 and age<60:
 else: 
     print("Senior")
 #3
-x=2
+n=int(input("Enter a number")) 
+for i in range(1, n + 1):
+    cube = i ** 3
+    print(f"The cube of {i} is {cube}")
+#4
+x=0
+for i in range(1,51):
+    if i%2==0:
+        x+=i 
+print("The sum of all even numbers from 1-50 is", x)
+#5
+n = 5  
+for i in range(1, n + 1):
+    print(" " * (n - i) + "*" * i)
+
+
 
     
 
