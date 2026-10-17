@@ -41,3 +41,4 @@ name_entry.pack()
 welcome_button.pack(pady=10)
 text_box.pack()
 root.mainloop()
+#hi
